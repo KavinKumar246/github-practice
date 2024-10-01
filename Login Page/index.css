@@ -1,0 +1,97 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+#main {
+    background-image: linear-gradient(to bottom left, #0e8979, #95daab);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background {
+    background-color: white;
+    max-height: 80vh;
+    min-width: 40%;
+    padding: 30px 0 30px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 50px;
+    color: rgb(12, 132, 122);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+#background .inp {
+    width: 80%;
+    height: 2.5rem;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.inp {
+    margin-bottom: -1rem;
+    border-color: rgba(128, 128, 128, 0.248);
+    border-width: 3px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#show {
+    margin-top: 2rem;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+#show input {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    background-color: rgb(12, 132, 122);
+    color: white;
+    padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button,
+#para {
+    margin-top: 2.5rem;
+}
+
+#para {
+    opacity: 0.5;
+    font-size: 20px;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+span {
+    color: rgb(6, 69, 63);
+    opacity: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    #background {
+        width: 60%;
+    }
+}
